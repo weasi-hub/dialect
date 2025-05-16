@@ -37,7 +37,7 @@
 
 ## Live Preview:
 
-https://berth-nine.vercel.app/
+https://dialect-eta.vercel.app/
 
 ## Getting Started: 
 
