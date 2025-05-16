@@ -1004,34 +1004,20 @@ nav {
     align-items: center;
     order: 2;
   }
-  .dialect_content {
-    align-items: center;
-  }
-
+  
   .products {
     align-items: center;
     order: 3;
-  }
-  .products_content {
-    align-items: center;
   }
 
   .learn_more {
     align-items: center;
     order: 1;
   }
-  
-  .learn_more_content {
-    align-items: center;
-  }
 
   .support {
     align-items: center;
     order: 4;
-  }
-
-  .support_content {
-    align-items: center;
   }
 
   .footer :nth-child(2 of hr) {
