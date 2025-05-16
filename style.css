@@ -25,7 +25,7 @@ html {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1rem;
-  /* border: 1px solid; */
+  border: 1px solid;
 }
 
 .mini_wrapper {
@@ -273,11 +273,11 @@ nav {
 }
 
 .about_img {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .about_text {
-  flex-basis: 60%;
+  flex-basis: 55%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -294,22 +294,22 @@ nav {
 }
 
 .box {
-  margin-top: 70px;
+  margin-top: 7rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .single_box {
   background-color: var(--secondary-color);
   border-radius: 12px;
-  padding: 25px;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  row-gap: 20px;
+  row-gap: 2rem;
   flex-basis: 31%;
 }
 
@@ -755,6 +755,24 @@ nav {
     right: -145px;
     z-index: 4;
   }
+
+  /* About styles  */
+
+  .about_content {
+    margin: 10rem 0;
+    flex-direction: column-reverse;
+    row-gap: 5rem;
+  }
+
+  .about_text > h2 {
+    max-width: 450px;
+  }
+
+  /* Features one styels  */
+
+  .single_box {
+    flex-basis: 48%;
+  }
 }
 
 
@@ -811,6 +829,16 @@ nav {
   .hero_btn::after {
     top: 40px;
     right: -70px;
+  }
+
+  /* Features one styels  */
+
+  .features_one .mini_wrapper {
+    max-width: 550px;
+  }
+
+  .single_box {
+    flex-basis: 100%;
   }
 }
 
