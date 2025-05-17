@@ -308,6 +308,7 @@ nav {
   text-align: left;
   row-gap: 2rem;
   flex-basis: 31%;
+  box-shadow: 0 5px 10px -5px var(--secondary-text-color);
 }
 
 .single_box span {
@@ -411,6 +412,7 @@ nav {
   flex-direction: column;
   row-gap: 2.8rem;
   flex-basis: 31%;
+  box-shadow: 0 10px 10px -3px var(--secondary-text-color);
 }
 
 .testimonial_singlebox_heading {
